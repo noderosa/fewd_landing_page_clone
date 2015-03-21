@@ -113,9 +113,22 @@ table {
 
 .background-image-section .content{
 	color: white;
+	font-family: 'Roboto', sans-serif; 
 	text-align: center;
 	padding: 17.5rem;
 	font-weight: 300;
+}
+
+.background-image-section .content > h1{
+	font-size: 3em;
+	
+}
+
+.background-image-section .content > h3{
+	  margin-top: 1.25rem;
+	  margin-bottom: 1.25rem;
+  	  font-size: 1.563rem;
+	
 }
 
 
@@ -155,5 +168,8 @@ table {
     display: inline-block;
     /* styles to assist with debugging */
    
+.cases .content {
+	padding: 0px 15px;
+}
 
 
