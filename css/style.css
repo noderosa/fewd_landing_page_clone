@@ -55,22 +55,24 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: 'Roboto', sans-serif; 
+}
 
 .content {
     padding: 0 15px;
+    text-align: center;
 }
 
 .top-navigation {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
-	background-color: #fff;
-	font-family: 'Roboto', sans-serif; 
+	background-color: #fff; 
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
-
 }
 
 .top-navigation .content{
@@ -116,15 +118,12 @@ table {
 
 .background-image-section .content{
 	color: white;
-	font-family: 'Roboto', sans-serif; 
-	text-align: center;
 	padding: 17.5rem;
 	font-weight: 300;
 }
 
 .background-image-section .content > h1{
 	font-size: 3em;
-	
 }
 
 .background-image-section .content > h3{
@@ -136,8 +135,7 @@ table {
 
 
 .big-button {
-
-	 text-shadow: none;
+	text-shadow: none;
     border-style: none;
     border-radius: 4px;
     padding: 16px 26px;
@@ -162,37 +160,29 @@ table {
 .cases h2 {
 	  font-size: 2.75rem;
  	  margin: 5.625rem 0 3.125rem;
- 	  font-family: 'Roboto', sans-serif; 
- 	  text-align: center;
+ 	  font-weight: 300;
 }
 
 .cases h3 {
 	  font-size: 1.5rem;
  	  margin: 0.625rem 0 3.125rem;
- 	  font-family: 'Roboto', sans-serif; 
+ 	  font-weight: 300;
 }
 
 
 .cases .devices > li{
     width: 32.3333333%;
     display: inline-block;
-    text-align: center;
+ 
     /* styles to assist with debugging */
 }
    
-.cases .content {
-	padding: 0px 15px;
-}
-
 .social .icons > li{
     display: inline-block;
-    text-align: center;
 
 }
 
 .social p {
 	  font-size: 1rem;
  	  margin: 0.625rem 0 3.125rem;
- 	  text-align: center;
- 	  font-family: 'Roboto', sans-serif; 
 }
